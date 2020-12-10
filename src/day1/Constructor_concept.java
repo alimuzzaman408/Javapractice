@@ -1,28 +1,19 @@
 package day1;
 
 public class Constructor_concept {
-	int x;
-	int  y;
-
+	int a;
+	int b;
 	Constructor_concept(int a,int b){
-
-		x=a;
-		y=b;
-
-
-
+		this.a=a;
+		this.b=b;
 	}
 	void display() {
-
-		System.out.println("sum is: "+(x+y));  
-
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println("sum is: "+(a+b));  
 	}
-
-
 	public static void main(String[] args) {
-		Constructor_concept co=new Constructor_concept(10,20);
+		Constructor_concept co=new Constructor_concept(40,60);
 		co.display();
-
 	}
-
 }

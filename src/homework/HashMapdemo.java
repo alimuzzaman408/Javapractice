@@ -13,8 +13,8 @@ public class HashMapdemo {
 		hm.put(104, "Rahim");
 		hm.put(105, "Motin");
 		System.out.println(hm);
-		hm.remove(101);
-		System.out.println(hm);
+		//hm.remove(101);
+		//System.out.println(hm);
 		
 		for(Map.Entry<Integer,String> m:hm.entrySet()) {
 			
